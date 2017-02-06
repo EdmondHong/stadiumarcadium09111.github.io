@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="40" viewBox="0 0 64 40" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <ellipse id="a" cx="40" cy="16" rx="16" ry="16"/>
+    <mask id="c" width="40" height="40" x="-4" y="-4">
+      <rect width="40" height="40" x="20" y="-4" fill="white"/>
+      <use fill="black" xlink:href="#a"/>
+    </mask>
+    <circle id="b" cx="16" cy="16" r="16"/>
+    <mask id="d" width="40" height="40" x="-4" y="-4">
+      <rect width="40" height="40" x="-4" y="-4" fill="white"/>
+      <use fill="black" xlink:href="#b"/>
+    </mask>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(4 4)">
+    <use fill="#C5C5C5" xlink:href="#a"/>
+    <use stroke="#F5F5F3" stroke-width="8" mask="url(#c)" xlink:href="#a"/>
+    <g>
+      <use fill="#282B33" xlink:href="#b"/>
+      <use stroke="#F5F5F3" stroke-width="8" mask="url(#d)" xlink:href="#b"/>
+    </g>
+  </g>
+</svg>
